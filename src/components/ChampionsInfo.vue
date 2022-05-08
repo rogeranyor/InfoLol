@@ -37,7 +37,7 @@
         </div>
       <div class="col">
             <img src="../assets/hability.png" class="img-fluid">
-        </div>    
+        </div>
     </div>
   </div>
 </div>
@@ -60,13 +60,3 @@
     display: table-cell;
 }
 </style>
-
-<script>
-export default{
-    props:{
-        championName:null
-    }
-}
-</script>
-
-
