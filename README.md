@@ -1,6 +1,6 @@
 # infolol
 
-> A Vue.js project
+> Vue WebPack
 
 ## Build Setup
 
