@@ -7,7 +7,7 @@
         <div v-for="champs in chunkedChamps" :key="champs.name">
           <div class="row">
             <div class="col-sm-4" v-for="champ in champs" :key="champ.name">
-              <a href="/"><img :src='champ.image' height="100px" width="125px" class='img-fluid' :key='imageIndex' /></a>
+              <router-link to="/champ" exact><img :src='champ.image' height="100px" width="125px" class='img-fluid' :key='imageIndex' /></router-link>
               <h4>{{champ.name}}</h4>
             </div>
           </div>
