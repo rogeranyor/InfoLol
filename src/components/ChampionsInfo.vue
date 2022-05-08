@@ -60,3 +60,10 @@
     display: table-cell;
 }
 </style>
+
+<script>
+export default {
+  props: {
+    championName: null}
+}
+</script>

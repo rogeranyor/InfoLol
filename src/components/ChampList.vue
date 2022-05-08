@@ -27,23 +27,23 @@ export default {
       champs: [
         {
           name: 'Aatrox',
-          image: [require('../assets/images/aatrox.jpg')]
+          image: [require('../assets/aatrox.jpg')]
         },
         {
           name: 'Akali',
-          image: [require('../assets/images/akali.jpg')]
+          image: [require('../assets/akali.jpg')]
         },
         {
           name: 'Diana',
-          image: [require('../assets/images/diana.jpg')]
+          image: [require('../assets/diana.jpg')]
         },
         {
           name: 'Rengar',
-          image: [require('../assets/images/rengar.jpg')]
+          image: [require('../assets/rengar.jpg')]
         },
         {
           name: 'Jhin',
-          image: [require('../assets/images/jhin.jpg')]
+          image: [require('../assets/jhin.jpg')]
         }
       ]
     }
