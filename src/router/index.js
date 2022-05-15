@@ -4,7 +4,7 @@ import Router from 'vue-router'
 import ChampionsInfo from '@/components/ChampionsInfo'
 import ChampList from '@/components/ChampList'
 import Match from '@/components/Match'
-
+import Forum from '@/components/Forum'
 Vue.use(Router)
 
 export default new Router({
@@ -23,6 +23,12 @@ export default new Router({
       path: '/match',
       name: 'MatchInfo',
       component: Match
+    },
+    {
+      path: '/forum',
+      name: 'Forum',
+      component: Forum
+
     }
   ]
 })
