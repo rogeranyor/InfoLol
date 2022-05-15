@@ -4,7 +4,7 @@
       <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
           <ul class="navbar-nav mr-auto">
               <li class="nav-item">
-                  <a class="nav-link" href="//codeply.com" style="color: gold; padding-left:30px;">Who are we?</a>
+                  <a class="nav-link" href="#" style="color: gold; padding-left:30px;">Who are we?</a>
               </li>
               <li class="nav-item">
                   <a class="nav-link" href="#" style="color: gold;">Contact Us</a>
@@ -44,7 +44,7 @@
             <div class="col my-4">
               <p class=" float-start align-self-center" style="color: gold; font-size: 2vmax">List of Champions</p>
             </div>
-            <div class="col ml-5 float-end">
+            <div class="col">
               <div class="dropdown-dark my-3 text-right">
                 <b-dropdown id="dropdown-1" text="Sort by" class="m-md-2" variant="dark">
                   <b-dropdown-item @click="champs.reverse">A-Z</b-dropdown-item>
@@ -85,6 +85,33 @@
           </div>
         </div>
         <div class ="container-fluid" style="background-color: gray; height: 100vh" >
+            <br>
+            <div class="card">
+              <div class="card-body">
+                ¡Buildcrash sube a la división SILVER 1!
+              </div>
+            </div>
+            <br>
+            <div class="card">
+              <img src="../assets/wp1.jpg" class="card-img-top" alt="...">
+              <div class="card-body ">
+                Información sobre el nuevo parche 1.5
+              </div>
+            </div>
+             <br>
+            <div class="card">
+              <div class="card-body">
+                Se ha actualizado la página añadiendo más información sobre campeones.
+              </div>
+            </div>
+            <br>
+            <div class="card">
+              <img src="../assets/wp2.jpg" class="card-img-top" alt="...">
+              <div class="card-body ">
+                Información sobre el nuevo parche 1.4
+              </div>
+            </div>
+            <br>
         </div>
       </div>
     </div>
