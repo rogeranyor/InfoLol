@@ -22,7 +22,7 @@
 
   <div class="container-fluid">
     <div class="row">
-      <div class="col-md-9">Main content
+      <div class="col-md-9">
         <div class ="container-fluid" style="background-color:goldenrod ">
           <div class="row">
             <div class ="col-9 " style="height: 70px">
@@ -145,7 +145,7 @@
           </div>
         </div>
       </div>
-      <div class="col-md-3">right
+      <div class="col-md-3">
         <div class ="container" style="background-color:goldenrod">
           <div class="row" style="height: 100px">
             <div class="col-7">
