@@ -4,6 +4,7 @@ import Router from 'vue-router'
 import ChampionsInfo from '@/components/ChampionsInfo'
 import ChampList from '@/components/ChampList'
 import Match from '@/components/Match'
+import Profile from '@/components/Profile'
 
 Vue.use(Router)
 
@@ -23,6 +24,11 @@ export default new Router({
       path: '/match',
       name: 'MatchInfo',
       component: Match
+    },
+    {
+      path: '/profile',
+      name: 'Profile',
+      component: Profile
     }
   ]
 })
