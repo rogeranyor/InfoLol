@@ -227,7 +227,6 @@
             </div>
           </div>
         </div>
-
         <div class ="container-fluid mt-3" style="background-color:dodgerblue">
           <div class="row-1">
             <div class="col-12" style="max-width: 100%">
