@@ -58,8 +58,8 @@
               <button type="btn btn-secondary" class="d-flex align-text-bottom btn btn-dark w-100 " style="background-color: black">Create Account</button>
             </div>
             <div class="col">
-              <img class="rounded-circle z-depth-2  rounded-circle float-right my-1" alt="25x25" src="../assets/akali.png"
-                   data-holder-rendered="true" style="border: 4px solid #000000; display: block; max-width: 60%; height: auto">
+              <router-link to="/Profile" exact><img class="rounded-circle z-depth-2  rounded-circle float-right my-1" alt="25x25" src="../assets/akali.png"
+                   data-holder-rendered="true" style="border: 4px solid #000000; display: block; max-width: 60%; height: auto"></router-link>
             </div>
           </div>
         </div>
