@@ -1,25 +1,5 @@
 <template>
 <div>
-  <nav class="navbar navbar-expand-lg navbar-light py-3" style="background-color:dodgerblue;">
-      <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
-          <ul class="navbar-nav mr-auto">
-              <li class="nav-item">
-                  <a class="nav-link" href="#" style="color: gold; padding-left:30px;">Who are we?</a>
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link" href="#" style="color: gold;">Contact Us</a>
-              </li>
-          </ul>
-      </div>
-      <div class="mx-auto order-0">
-          <a class="navbar-brand mx-auto" href="#" style="font-size: 80px;color: gold;">InfoLoL</a>
-      </div>
-      <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
-          <ul class="navbar-nav ml-auto">
-          </ul>
-      </div>
-  </nav>
-
   <div class="container-fluid">
     <div class="row">
       <div class="col-md-9">
@@ -77,9 +57,8 @@
               <button type="btn btn-secondary" class="d-flex align-text-top btn btn-dark my-2  w-100" style="background-color: black; text-align: center" >Login</button>
               <button type="btn btn-secondary" class="d-flex align-text-bottom btn btn-dark w-100 " style="background-color: black">Create Account</button>
             </div>
-
             <div class="col">
-              <router-link to="/Profile" exact><img class="rounded-circle z-depth-2  rounded-circle float-end my-1" alt="25x25" src="../assets/akali.png"
+              <router-link to="/Profile" exact><img class="rounded-circle z-depth-2  rounded-circle float-right my-1" alt="25x25" src="../assets/akali.png"
                    data-holder-rendered="true" style="border: 4px solid #000000; display: block; max-width: 60%; height: auto"></router-link>
             </div>
           </div>
