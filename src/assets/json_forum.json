@@ -1,0 +1,14 @@
+{
+    "1235523" :{
+        "id": "1235523",
+        "rank" : "Silver",
+        "position" : "Mid",
+        "winrate" : "80"
+    },
+    "1235321" : {
+        "id": "1235321",
+        "rank" : "Gold",
+        "position" : "Top",
+        "winrate" : "55"
+    }
+}
