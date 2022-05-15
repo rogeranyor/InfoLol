@@ -54,8 +54,8 @@
         <div class ="container" style="background-color:goldenrod">
           <div class="row" style="height: 100px">
             <div class="col-7">
-              <button type="btn btn-secondary" class="d-flex align-text-top btn btn-dark my-2  w-100" style="background-color: black; text-align: center" >Login</button>
-              <button type="btn btn-secondary" class="d-flex align-text-bottom btn btn-dark w-100 " style="background-color: black">Create Account</button>
+              <router-link to="/Login" tag="button" type="btn btn-secondary" class="d-flex align-text-top btn btn-dark my-2  w-100" style="background-color: black; text-align: center" >Login</router-link>
+              <router-link to="/Register" tag="button" type="btn btn-secondary" class="d-flex align-text-bottom btn btn-dark w-100 " style="background-color: black">Create Account</router-link>
             </div>
             <div class="col">
               <router-link to="/Profile" exact><img class="rounded-circle z-depth-2  rounded-circle float-right my-1" alt="25x25" src="../assets/akali.png"
