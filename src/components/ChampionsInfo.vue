@@ -4,27 +4,25 @@
       <div class="col">
         <img src="../assets/akali.png" class="img-fluid" />
       </div>
-      <div class="col">
+      <div class="col" style="text-align:center">
         <br /><br /><br />
-        <div class="badge bg-primary text-wrap" style="width: auto;color:white ;">
+        <div class="badge bg-primary text-wrap" style="width: auto;color:white; text-align: center;">
           <h3>Akali</h3>
         </div>
       </div>
       <div class="col">
         <div class="circle">
-          <h3 style="color: blue">Winrate</h3>
+          <h3 style="color: blue; text-align: center;">Winrate</h3>
         </div>
       </div>
     </div>
-
     <div class="row" style="margin-top: 2%">
-      <div class="col" style="width: fit-content; margin: 2%">
-        <div
+      <div class="col" style="width: fit-content; margin: 2%;text-align: center;">
+         <div
           class="badge bg-primary text-wrap"
-          style="width: fit-content; text-align: center; margin: 2% ;color:white"
-        >
+          style="width: fit-content; text-align: center; margin: 2% ;color:white">
           <h3>Runes</h3>
-        </div>
+          </div>
         <table align="center">
           <tbody align="center">
             <tr>
@@ -422,7 +420,7 @@
           </tbody>
         </table>
       </div>
-      <div class="col" style="width: fit-content; margin: 2%">
+      <div class="col" style="width: fit-content; margin: 2%; text-align: center;">
         <div
           class="badge bg-primary text-wrap"
           style="margin: 2%; background-color: blue;color:white"
