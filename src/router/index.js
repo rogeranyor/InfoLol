@@ -3,6 +3,7 @@ import Router from 'vue-router'
 // import HelloWorld from '@/components/HelloWorld'
 import ChampionsInfo from '@/components/ChampionsInfo'
 import ChampList from '@/components/ChampList'
+import Match from '@/components/Match'
 
 Vue.use(Router)
 
@@ -17,6 +18,11 @@ export default new Router({
       path: '/champ',
       name: 'ChampionsInfo',
       component: ChampionsInfo
+    },
+    {
+      path: '/match',
+      name: 'MatchInfo',
+      component: Match
     }
   ]
 })
