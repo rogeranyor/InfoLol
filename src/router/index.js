@@ -6,6 +6,8 @@ import ChampList from '@/components/ChampList'
 import Match from '@/components/Match'
 import Forum from '@/components/Forum'
 import Profile from '@/components/Profile'
+import Login from '@/components/Login'
+import Register from '@/components/Register'
 
 Vue.use(Router)
 
@@ -35,6 +37,18 @@ export default new Router({
       path: '/forum',
       name: 'Forum',
       component: Forum
+
+    },
+    {
+      path: '/login',
+      name: 'Login',
+      component: Login
+
+    },
+    {
+      path: '/register',
+      name: 'Register',
+      component: Register
 
     }
   ]
