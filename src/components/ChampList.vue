@@ -22,7 +22,7 @@
 
   <div class="container-fluid">
     <div class="row">
-      <div class="col-md-9">
+      <div class="col-md-9 my-3">
         <div class ="container-fluid" style="background-color:goldenrod ">
           <div class="row">
             <div class ="col-9 " style="height: 70px">
@@ -31,11 +31,11 @@
                 <input type="text" v-model="search" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Search a Champion">
               </div>
             </div>
-            <div class="col text-end">
+            <div class="col text-right mr-2">
               <!-- class="btn btn-dark w-50 mx-3 "  -->
               <!-- class="btn btn-dark my-3 "-->
-              <router-link to="/forum" exact><button type="btn btn-secondary" class="btn btn-dark w-50 mx-3 " style="background-color: black" data-toggle="collapse" aria-expanded="false">Forum</button></router-link>
-              <button type="btn btn-secondary" class="btn btn-dark my-3 " style="background-color: black; width: 95px" data-toggle="collapse" aria-expanded="false">EloBoost</button>
+              <button type="btn btn-secondary" class="btn btn-dark mx-3 center-block w-50" style="background-color: black" data-toggle="collapse" aria-expanded="false">Forum</button>
+              <button type="btn btn-secondary" class="btn btn-dark my-3 center-block w-25" style="background-color: black" data-toggle="collapse" aria-expanded="false">Duo</button>
             </div>
           </div>
         </div>
@@ -44,9 +44,9 @@
             <div class="col my-4">
               <p class=" float-start align-self-center" style="color: gold; font-size: 2vmax">List of Champions</p>
             </div>
-            <div class="col">
-              <div class="dropdown my-3 float-end">
-                <b-dropdown id="dropdown-1" text="Sort by" class="m-md-2" variant="black">
+            <div class="col ml-5 float-end">
+              <div class="dropdown-dark my-3 text-right">
+                <b-dropdown id="dropdown-1" text="Sort by" class="m-md-2" variant="dark">
                   <b-dropdown-item @click="champs.reverse">A-Z</b-dropdown-item>
                   <b-dropdown-item>Pickrate</b-dropdown-item>
                   <b-dropdown-item>Winrate</b-dropdown-item>
@@ -56,10 +56,10 @@
           </div>
         </div>
 
-        <div class ="container-fluid" style="background-color: gray;">
+        <div class ="container-fluid align-items-center" style="background-color: gray;">
+        <br>
           <div id="ChampList">
-            <br/>
-            <div class="container">
+            <div class="container-fluid">
               <div class="row" v-for="champs in chunkedChamps" :key="champs.name" align="center">
                 <div class="col" v-for="champ in champs" :key="champ.name">
                   <router-link to="/champ" exact><img :src="require('../assets/champion/' + champ.image)" alt='champ.name' height="100px" width="100px"/></router-link>
@@ -70,7 +70,7 @@
           </div>
         </div>
       </div>
-      <div class="col-md-3">right
+      <div class="col-md-3 my-3">
         <div class ="container" style="background-color:goldenrod">
           <div class="row" style="height: 100px">
             <div class="col-7">
@@ -79,8 +79,8 @@
             </div>
 
             <div class="col">
-              <router-link to="/Profile" exact><img class="rounded-circle z-depth-2  rounded-circle float-end my-1" alt="25x25" src="../assets/akali.png"
-                   data-holder-rendered="true" style="border: 4px solid #000000; display: block; max-width: 60%; height: auto"></router-link>
+              <img class="rounded-circle z-depth-2  rounded-circle float-end my-1" alt="25x25" src="../assets/akali.png"
+                   data-holder-rendered="true" style="border: 4px solid #000000; display: block; max-width: 60%; height: auto">
             </div>
           </div>
         </div>
