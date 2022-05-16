@@ -29,13 +29,14 @@
                 Akali
               </div>
             </div>
-            <div class="col-2 rounded-circle z-depth-2 rounded-circle float-end my-1 ml-2 mr-2" style="background-color: goldenrod; text-align: center">
+            <div class="col-2 rounded-circle z-depth-2 rounded-circle float-end my-1 ml-2 mr-2"
+              style="background-color: goldenrod; text-align: center;font-size: 75%;">
                     <div class ="container-fluid" style="text-align: center;">
-                        <div class="row-4 align-items-center" style="font-size: 2vmax;text-align: center;word-wrap: break-word;">
-                            <div class="col-12 my-4" style="color: black;font-style: italic; font-size: 50%;">Winrate</div>
+                        <div class="row-4 align-items-center" style="text-align: center;">
+                            <div class="col-12 my-4" style="color: black;font-style: italic;font-size: 2vmin;">Winrate</div>
                         </div>
                         <div class="row-4 align-items-center">
-                            <div class="col-12 my-2" style="color: black; font-size: 2vmax;word-wrap:break-word">xx,xx%</div>
+                            <div class="col-12 my-2" style="color: black; font-size: 2vmin;overflow: hidden;">xx,xx%</div>
                         </div>
                     </div>
                 </div>
