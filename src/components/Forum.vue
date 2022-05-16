@@ -36,7 +36,7 @@
       </thead>
       <thead>
         <tr v-for="user in users" :key="user.id" style="text-align:center;font-weight: bold;">
-          <td><img style="border-radius: 50%;" :src="require('../assets/users/' + user.id+'.png')"  height="3%" width="40px" /></td>
+          <td><router-link to="/Profile" exact><img style="border-radius: 50%;" :src="require('../assets/users/' + user.id+'.png')"  height="3%" width="40px" /></router-link></td>
           <td><img :src="require('../assets/emblems/Emblem_' + user.rank+'.png')" height="3%" width="40px"/></td>
           <td><span>{{user.position}} </span><img :src="require('../assets/positions/' + user.position+'.png')" height="3%" width="40px"/></td>
           <td>{{ user.winrate }} %</td>
