@@ -2,7 +2,7 @@
 <div>
   <div class="container-fluid">
     <div class="row">
-      <div class="col-md-9">
+      <div class="col-md-9 my-3">
         <div class ="container-fluid" style="background-color:goldenrod ">
           <div class="row">
             <div class ="col-9 " style="height: 70px">
@@ -51,6 +51,7 @@
         </div>
       </div>
       <div class="col-md-3 my-3">
+        <div class="row">
         <div class ="container" style="background-color:goldenrod">
           <div class="row" style="height: 100px">
             <div class="col-7">
@@ -63,6 +64,8 @@
             </div>
           </div>
         </div>
+        </div>
+        <div class="row">
         <div class ="container-fluid" style="background-color: gray; height: 100vh" >
             <br>
             <div class="card">
@@ -91,6 +94,7 @@
               </div>
             </div>
             <br>
+        </div>
         </div>
       </div>
     </div>
