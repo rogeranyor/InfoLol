@@ -11,10 +11,9 @@
               </li>
           </ul>
       </div>
-      <div class="mx-auto order-0">
+      <router-link style="text-decoration: none; color: inherit;" to="/"><div class="mx-auto order-0">
           <a class="navbar-brand mx-auto" href="#" style="font-size: 80px;color: gold;">InfoLoL</a>
-          <router-link style="text-decoration: none; color: inherit;" to="/"><strong></strong></router-link>
-      </div>
+      </div></router-link>
       <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
           <ul class="navbar-nav ml-auto">
           </ul>
