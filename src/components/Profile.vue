@@ -194,6 +194,7 @@
       </div>
       <!--right-->
       <div class="col my-2">
+        <div class="row">
         <div class ="container" style="background-color:goldenrod">
           <div class="row" style="height: 100px">
             <div class="col-7">
@@ -207,6 +208,8 @@
             </div>
           </div>
         </div>
+        </div>
+        <div class="row">
         <div class ="container-fluid mt-3" style="background-color:dodgerblue">
           <div class="row-1">
             <div class="col-12" style="max-width: 100%">
@@ -270,6 +273,7 @@
                     </div>
                 </div>
             </div>
+        </div>
         </div>
       </div>
     </div>

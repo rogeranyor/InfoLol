@@ -41,11 +41,11 @@
                 </div>
           </div>
           <div class="row my-2">
-            <div class="col" style="text-align: center; background-color:darkgray">
+            <div class="col mr-2" style="text-align: center; background-color:darkgray;">
               <div
-                class="container-fluid"
-                style="text-align: center;background-color:dodgerblue; font-size: 2vmax; color: goldenrod">
-                Runes
+                class="row"
+                style="text-align: center;background-color:dodgerblue; font-size: 2vmax; color: goldenrod; ">
+                <div class="col" style="text-align: center">Runes</div>
                 </div>
               <table align="center" >
                 <tbody align="center">
@@ -444,14 +444,13 @@
                 </tbody>
               </table>
             </div>
-            <div class="col" style="width: fit-content; margin: 2%; text-align: center; background-color:darkgray">
+            <div class="col" style="text-align: center;">
               <div
-                class="badge bg-primary text-wrap"
-                style="margin: 2%; background-color: blue;color:white"
-              >
-                <h3>Build</h3>
+                class="row"
+                style="text-align: center;background-color:dodgerblue; font-size: 2vmax; color: goldenrod; ">
+                <div class="col" style="text-align: center">Build</div>
               </div>
-              <div class="row">
+              <div class="row" style="background-color:darkgray">
                 <img
                   data-original="/images/item/sorcerers-shoes-64x.png"
                   alt=""
@@ -501,12 +500,12 @@
                   style="margin: 2%"
                 />
               </div>
-              <div class="content-section_content skill-priority">
-                <div
-                class="badge bg-primary text-wrap"
-                style="margin: 2%; background-color: blue;color:white">
-                <h3>Skill Priority</h3>
+              <div
+                class="row mt-2"
+                style="text-align: center;background-color:dodgerblue; font-size: 2vmax; color: goldenrod; ">
+                <div class="col" style="text-align: center">Skill Priority</div>
                 </div>
+              <div class="row" style="background-color:darkgray">
                 <table align="center">
                   <tbody>
                     <tr>
@@ -538,12 +537,13 @@
                   </tbody>
                 </table>
               </div>
-            </div>
+          </div>
         </div>
       </div>
     </div>
     <!--right-->
     <div class="col my-2">
+      <div class="row">
       <div class ="container" style="background-color:goldenrod">
         <div class="row" style="height: 100px">
           <div class="col-7">
@@ -555,6 +555,39 @@
                 data-holder-rendered="true" style="border: 4px solid #000000; display: block; max-width: 60%; height: auto"></router-link>
           </div>
         </div>
+      </div>
+      </div>
+      <div class="row">
+      <div class ="container-fluid mt-3" style="background-color:dodgerblue">
+        <div class="row-1">
+          <div class="col-12" style="max-width: 100%">
+            <p style="color: gold; font-size: 1vmax; text-align: center;">Professionals use these builds</p>
+          </div>
+        </div>
+      </div>
+      <div class ="container-fluid" style="background-color: gray; height: 100vh" >
+          <br>
+            <div class="card">
+              <img src="../assets/wp1.jpg" class="card-img-top" alt="...">
+              <div class="card-body ">
+                Información sobre el nuevo parche 1.5
+              </div>
+            </div>
+             <br>
+            <div class="card">
+              <div class="card-body">
+                Se ha actualizado la página añadiendo más información sobre campeones.
+              </div>
+            </div>
+            <br>
+            <div class="card">
+              <img src="../assets/wp2.jpg" class="card-img-top" alt="...">
+              <div class="card-body ">
+                Información sobre el nuevo parche 1.4
+              </div>
+            </div>
+            <br>
+      </div>
       </div>
     </div>
     </div>
