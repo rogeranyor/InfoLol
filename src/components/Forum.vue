@@ -1,13 +1,10 @@
 <template>
-  <div class="container" style="background-color: dodgerblue; width: 100%; min-height: 100vh; max-width: initial;">
-    <div class="row">
-      <div class="col" style="margin: 2%" align="center">
-        <h1
-          style="color: gold" >
-          Forum
-        </h1>
+  <div class="container" style="background-color: #7A7265; width: 100%; min-height: 100vh; max-width: initial;">
+    <div class="row" style="background-color: #1A659E">
+      <div class="col-10" style="margin: 2%" align="center">
+        <a style="font-size: 2vmax; color: #FF6B35">Forum</a>
       </div>
-      <div class="col">
+      <div class="col-1">
         <div class="dropdown my-3 float-end">
           <b-dropdown
             id="dropdown-1"
@@ -24,10 +21,10 @@
     </div>
     <table
       class="table"
-      style="width: 100%; background-color: darkgray;"
+      style="width: 100%; background-color: #7A7265;"
       id="carttable">
       <thead>
-        <tr style="text-align:center;  background-color: #8d8f8d;">
+        <tr style="text-align:center;  background-color: #b1a797;">
           <th style="color: black">Photo</th>
           <th style="color: black">Rank</th>
           <th style="color: black">Position</th>
@@ -47,7 +44,14 @@
 </template>
 <style>
 table thead tr:nth-child(even){
-    background: #8d8f8d;
+    background: #b1a797;
+}
+:root {
+    --maincolor: #1A659E;
+    --secondarycolor: #004E89;
+    --backgroundcolor: #EFEFD0;
+    --forthcolor: #7A7265;
+    --fifthcolor: #FF6B35;
 }
 </style>
 <script>
@@ -90,6 +94,7 @@ export default {
     }
   },
   created () {
+    document.body.style.backgroundColor = '#EFEFD0'
     this.getUsers()
   }
 }

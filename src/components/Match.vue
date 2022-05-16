@@ -1,14 +1,14 @@
 <template>
 <div>
-  <div class ="container-fluid mt-2 " style="background-color:dodgerblue; height: 80px">
+  <div class ="container-fluid mt-2 " style="background-color:#1A659E; height: 80px">
     <div class="row">
       <div class="col my-4">
-        <p class=" float-start align-self-center" style="color: gold; font-size: 2vmax">Match Info</p>
+        <p class=" float-start align-self-center" style="color: #FF6B35; font-size: 2vmax">Match Info</p>
       </div>
     </div>
   </div>
 
-  <div class ="container-fluid" style="background-color: gray;">
+  <div class ="container-fluid" style="background-color: #7A7265;">
     <br/>
     <div align="left">
         <span class="queue-type"><strong>Clasificatoria Solo 5vs5</strong> | </span>
@@ -108,6 +108,16 @@
 </div>
 </template>
 
+<style scoped>
+:root {
+    --maincolor: #1A659E;
+    --secondarycolor: #004E89;
+    --backgroundcolor: #EFEFD0;
+    --forthcolor: #7A7265;
+    --fifthcolor: #FF6B35;
+}
+</style>
+
 <script>
 import json from '../assets/champion.json'
 import json2 from '../assets/json_players.json'
@@ -155,7 +165,7 @@ export default {
     }
   },
   created () {
-    document.body.style.backgroundColor = '#000000'
+    document.body.style.backgroundColor = '#EFEFD0'
     this.getChamps()
     this.getPlayers()
   }

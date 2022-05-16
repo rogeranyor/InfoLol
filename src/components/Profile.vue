@@ -1,27 +1,27 @@
 <template>
 <div>
-  <div class ="container-fluid mt-2 " style="background-color:dodgerblue">
+  <div class ="container-fluid mt-2 " style="background-color:#1A659E">
     <div class="row">
       <div class="col-2">
-        <img class="rounded-circle z-depth-2  rounded-circle float-end my-1" alt="icon" src="../assets/akali.png"
+        <img class="rounded-circle z-depth-2  rounded-circle float-end my-1" alt="25x25" src="../assets/akali.png"
               data-holder-rendered="true" style="border: 4px solid #000000; display: block; max-width: 100%; height: auto">
       </div>
       <div class="col my-5">
-        <p class=" float-start" style="color: gold; font-size: 3vmax">Summoner's Name</p>
+        <p class=" float-start" style="color: #FF6B35; font-size: 3vmax">Summoner's Name</p>
       </div>
     </div>
   </div>
-  <div class ="container-fluid" style="background-color: gray; min-height: 100%">
+  <div class ="container-fluid" style="background-color: #7A7265; min-height: 100%">
       <div class ="row py-3 ml-2 mr-2" id="Rank">
           <div class="col-2" style="background-color: goldenrod;">
               <img class="z-depth-2 my-1" alt="ranked_emblem" src="../assets/emblems/Emblem_Gold.png"
               data-holder-rendered="true" style="display: block; max-width: 100%; height: auto">
           </div>
-          <div class="col-6" style="background-color: goldenrod;">
+          <div class="col-6" style="background-color: #004E89;">
           </div>
           <div class="col-2">
           </div>
-          <div class="col-2 rounded-circle z-depth-2 rounded-circle float-end my-1" style="background-color: goldenrod; text-align: center">
+          <div class="col-2 rounded-circle z-depth-2 rounded-circle float-end my-1" style="background-color: #004E89; text-align: center">
               <div class ="container-fluid">
                   <div class="row-4 align-items-center">
                       <div class="col-12 my-4" style="color: black;font-style: italic ; font-size: 2vmax">Winrate</div>
@@ -32,7 +32,7 @@
               </div>
           </div>
       </div>
-      <div class ="row-8 ml-2 mr-2" id="MatchHistory" style="background-color: dimgray; min-height: 100%">
+      <div class ="row-8 ml-2 mr-2" id="MatchHistory" style="background-color: dim#7A7265; min-height: 100%">
           <div class ="container-fluid my-2" style="background-color:firebrick">
               <router-link style="text-decoration: none; color: inherit;" to="/match">
                 <div class="row">
@@ -173,6 +173,16 @@
 </div>
 </template>
 
+<style>
+:root {
+    --maincolor: #1A659E;
+    --secondarycolor: #004E89;
+    --backgroundcolor: #EFEFD0;
+    --forthcolor: #7A7265;
+    --fifthcolor: #FF6B35;
+}
+</style>
+
 <script>
 import json from '../assets/champion.json'
 export default {
@@ -184,7 +194,7 @@ export default {
     }
   },
   created () {
-    document.body.style.backgroundColor = '#000000'
+    document.body.style.backgroundColor = '#EFEFD0'
   }
 }
 </script>

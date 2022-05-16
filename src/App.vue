@@ -1,18 +1,18 @@
 <template>
 <div>
-  <nav class="navbar navbar-expand-lg navbar-light py-3" style="background-color:dodgerblue;">
+  <nav class="navbar navbar-expand-lg navbar-light py-3" style="background-color:#1A659E;">
       <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
           <ul class="navbar-nav mr-auto">
               <li class="nav-item">
-                  <a class="nav-link" href="#" style="color: gold; padding-left:30px;">Who are we?</a>
+                  <a class="nav-link" href="#" style="color: #FF6B35; padding-left:30px;">Who are we?</a>
               </li>
               <li class="nav-item">
-                  <a class="nav-link" href="#" style="color: gold;">Contact Us</a>
+                  <a class="nav-link" href="#" style="color: #FF6B35;">Contact Us</a>
               </li>
           </ul>
       </div>
       <router-link style="text-decoration: none; color: inherit;" to="/"><div class="mx-auto order-0">
-          <a class="navbar-brand mx-auto" href="#" style="font-size: 80px;color: gold;">InfoLoL</a>
+          <a class="navbar-brand mx-auto" href="#" style="font-size: 80px;color: #FF6B35;">InfoLoL</a>
       </div></router-link>
       <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
           <ul class="navbar-nav ml-auto">
@@ -22,7 +22,7 @@
   <div class="container-fluid">
     <div class="row">
         <div class="col-md-9 my-3">
-            <div class ="container-fluid" style="background-color:goldenrod ">
+            <div class ="container-fluid" style="background-color:#004E89 ">
     <div class="row">
       <div class ="col-9 " style="height: 70px">
         <div class="form-group d-flex my-3">
@@ -34,7 +34,7 @@
         <!-- class="btn btn-dark w-50 mx-3 "  -->
         <!-- class="btn btn-dark my-3 "-->
         <router-link to="/forum" exact><button type="btn btn-secondary" class="btn btn-dark w-50 mx-3 " style="background-color: black" data-toggle="collapse" aria-expanded="false">Forum</button></router-link>
-        <button type="btn btn-secondary" class="btn btn-dark my-3 " style="background-color: black; width: 95px" data-toggle="collapse" aria-expanded="false">EloBoost</button>
+        <router-link to="/Coaching"><button type="btn btn-secondary" class="btn btn-dark my-3 " style="background-color: black; width: 95px" data-toggle="collapse" aria-expanded="false">Coaching</button></router-link>
       </div>
     </div>
   </div>
@@ -42,7 +42,7 @@
         </div>
         <div class="col-md-3 my-3">
         <div class="row">
-        <div class ="container" style="background-color:goldenrod">
+        <div class ="container" style="background-color:#004E89">
           <div class="row" style="height: 100px">
             <div class="col-7">
               <router-link to="/Login" tag="button" type="btn btn-secondary" class="d-flex align-text-top btn btn-dark my-2  w-100" style="background-color: black; text-align: center" >Login</router-link>
@@ -56,7 +56,7 @@
         </div>
         </div>
         <div class="row">
-        <div class ="container-fluid" style="background-color: gray; height: 100vh" >
+        <div class ="container-fluid" style="background-color: #7A7265; height: 100vh" >
             <br>
             <div class="card">
               <div class="card-body">
@@ -99,6 +99,13 @@ export default {
 </script>
 
 <style>
+:root {
+    --maincolor: #1A659E;
+    --secondarycolor: #004E89;
+    --backgroundcolor: #EFEFD0;
+    --forthcolor: #7A7265;
+    --fifthcolor: #FF6B35;
+}
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
