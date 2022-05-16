@@ -24,10 +24,10 @@
     </div>
     <table
       class="table"
-      style="width: 100%;background-color: darkgrey;"
+      style="width: 100%; background-color: darkgray;"
       id="carttable">
       <thead>
-        <tr style="text-align:center">
+        <tr style="text-align:center;  background-color: #8d8f8d;">
           <th style="color: black">Photo</th>
           <th style="color: black">Rank</th>
           <th style="color: black">Position</th>
@@ -45,6 +45,11 @@
     </table>
   </div>
 </template>
+<style>
+table thead tr:nth-child(even){
+    background: #8d8f8d;
+}
+</style>
 <script>
 import json from '../assets/json_forum.json'
 

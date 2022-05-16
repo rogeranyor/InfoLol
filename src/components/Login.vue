@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="container-fluid">
+    <div class="container-fluid" style="max-width: initial;">
       <div class="row justify-content-md-center mt-4 " style="height: 100vh">
         <div class="col-sm-4 text-center" style="background-color:dodgerblue">
           <div class="mx-auto order-0">
@@ -33,7 +33,7 @@
 <script>
 export default {
   created () {
-    document.body.style.backgroundColor = '#000000'
+    document.body.style.backgroundColor = 'lightblue'
   }
 }
 </script>
