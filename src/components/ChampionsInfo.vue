@@ -15,7 +15,7 @@
               style="background-color: goldenrod; text-align: center;font-size: 75%;">
                 <div class ="container-fluid" style="text-align: center;">
                     <div class="row-4 align-items-center" style="text-align: center;">
-                        <div class="col-12 my-4" style="color: black;font-style: italic;font-size: 2vmin;">Winrate</div>
+                        <div class="col-12 my-4" style="color: black;font-style: italic;font-size: 2vmin; overflow: hidden;">Winrate</div>
                     </div>
                     <div class="row-4 align-items-center">
                         <div class="col-12 my-2" style="color: black; font-size: 2vmin;overflow: hidden;">xx,xx%</div>
