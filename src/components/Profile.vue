@@ -3,7 +3,7 @@
   <div class ="container-fluid mt-2 " style="background-color:dodgerblue">
     <div class="row">
       <div class="col-2">
-        <img class="rounded-circle z-depth-2  rounded-circle float-end my-1" alt="25x25" src="../assets/akali.png"
+        <img class="rounded-circle z-depth-2  rounded-circle float-end my-1" alt="icon" src="../assets/akali.png"
               data-holder-rendered="true" style="border: 4px solid #000000; display: block; max-width: 100%; height: auto">
       </div>
       <div class="col my-5">
@@ -14,7 +14,7 @@
   <div class ="container-fluid" style="background-color: gray; min-height: 100%">
       <div class ="row py-3 ml-2 mr-2" id="Rank">
           <div class="col-2" style="background-color: goldenrod;">
-              <img class="z-depth-2 my-1" alt="25x25" src="../assets/emblems/Emblem_Gold.png"
+              <img class="z-depth-2 my-1" alt="ranked_emblem" src="../assets/emblems/Emblem_Gold.png"
               data-holder-rendered="true" style="display: block; max-width: 100%; height: auto">
           </div>
           <div class="col-6" style="background-color: goldenrod;">
@@ -37,7 +37,7 @@
               <router-link style="text-decoration: none; color: inherit;" to="/match">
                 <div class="row">
                     <div class="col-2">
-                    <img class="z-depth-2 my-1" alt="25x25" src="../assets/champion/Graves.png"
+                    <img class="z-depth-2 my-1" alt="champ" src="../assets/champion/Graves.png"
                     data-holder-rendered="true" style="display: block; max-width: 100%; height: auto">
                     </div>
                     <div class="col-1 my-4" style="color: black; font-size: 2vmax; text-align: center">
@@ -50,12 +50,12 @@
                         0/10/0
                     </div>
                     <div class="col-6 my-4" style="color: black; font-size: 2vmax; text-align: center">
-                        <img class="z-depth-2 my-1" alt="25x25" src="../assets/akali.png" style="height: 65px;">
-                        <img class="z-depth-2 my-1" alt="25x25" src="../assets/akali.png" style="height: 65px;">
-                        <img class="z-depth-2 my-1" alt="25x25" src="../assets/akali.png" style="height: 65px;">
-                        <img class="z-depth-2 my-1" alt="25x25" src="../assets/akali.png" style="height: 65px;">
-                        <img class="z-depth-2 my-1" alt="25x25" src="../assets/akali.png" style="height: 65px;">
-                        <img class="z-depth-2 my-1" alt="25x25" src="../assets/akali.png" style="height: 65px;">
+                        <img class="z-depth-2 my-1" alt="object" src="../assets/akali.png" style="height: 65px;">
+                        <img class="z-depth-2 my-1" alt="object" src="../assets/akali.png" style="height: 65px;">
+                        <img class="z-depth-2 my-1" alt="object" src="../assets/akali.png" style="height: 65px;">
+                        <img class="z-depth-2 my-1" alt="object" src="../assets/akali.png" style="height: 65px;">
+                        <img class="z-depth-2 my-1" alt="object" src="../assets/akali.png" style="height: 65px;">
+                        <img class="z-depth-2 my-1" alt="object" src="../assets/akali.png" style="height: 65px;">
                     </div>
                 </div>
               </router-link>
@@ -64,7 +64,7 @@
               <router-link style="text-decoration: none; color: inherit;" to="/match">
                 <div class="row">
                     <div class="col-2">
-                    <img class="z-depth-2 my-1" alt="25x25" src="../assets/champion/Rengar.png"
+                    <img class="z-depth-2 my-1" alt="champ" src="../assets/champion/Rengar.png"
                     data-holder-rendered="true" style="display: block; max-width: 100%; height: auto">
                     </div>
                     <div class="col-1 my-4" style="color: black; font-size: 2vmax; text-align: center">
@@ -77,12 +77,12 @@
                         2/4/1
                     </div>
                     <div class="col-6 my-4" style="color: black; font-size: 2vmax; text-align: center">
-                        <img class="z-depth-2 my-1" alt="25x25" src="../assets/akali.png" style="height: 65px;">
-                        <img class="z-depth-2 my-1" alt="25x25" src="../assets/akali.png" style="height: 65px;">
-                        <img class="z-depth-2 my-1" alt="25x25" src="../assets/akali.png" style="height: 65px;">
-                        <img class="z-depth-2 my-1" alt="25x25" src="../assets/akali.png" style="height: 65px;">
-                        <img class="z-depth-2 my-1" alt="25x25" src="../assets/akali.png" style="height: 65px;">
-                        <img class="z-depth-2 my-1" alt="25x25" src="../assets/akali.png" style="height: 65px;">
+                        <img class="z-depth-2 my-1" alt="object" src="../assets/akali.png" style="height: 65px;">
+                        <img class="z-depth-2 my-1" alt="object" src="../assets/akali.png" style="height: 65px;">
+                        <img class="z-depth-2 my-1" alt="object" src="../assets/akali.png" style="height: 65px;">
+                        <img class="z-depth-2 my-1" alt="object" src="../assets/akali.png" style="height: 65px;">
+                        <img class="z-depth-2 my-1" alt="object" src="../assets/akali.png" style="height: 65px;">
+                        <img class="z-depth-2 my-1" alt="object" src="../assets/akali.png" style="height: 65px;">
                     </div>
                 </div>
               </router-link>
@@ -91,7 +91,7 @@
               <router-link style="text-decoration: none; color: inherit;" to="/match">
                 <div class="row">
                     <div class="col-2">
-                    <img class="z-depth-2 my-1" alt="25x25" src="../assets/champion/Aatrox.png"
+                    <img class="z-depth-2 my-1" alt="champ" src="../assets/champion/Aatrox.png"
                     data-holder-rendered="true" style="display: block; max-width: 100%; height: auto">
                     </div>
                     <div class="col-1 my-4" style="color: black; font-size: 2vmax; text-align: center">
@@ -104,12 +104,12 @@
                         1/10/5
                     </div>
                     <div class="col-6 my-4" style="color: black; font-size: 2vmax; text-align: center">
-                        <img class="z-depth-2 my-1" alt="25x25" src="../assets/akali.png" style="height: 65px;">
-                        <img class="z-depth-2 my-1" alt="25x25" src="../assets/akali.png" style="height: 65px;">
-                        <img class="z-depth-2 my-1" alt="25x25" src="../assets/akali.png" style="height: 65px;">
-                        <img class="z-depth-2 my-1" alt="25x25" src="../assets/akali.png" style="height: 65px;">
-                        <img class="z-depth-2 my-1" alt="25x25" src="../assets/akali.png" style="height: 65px;">
-                        <img class="z-depth-2 my-1" alt="25x25" src="../assets/akali.png" style="height: 65px;">
+                        <img class="z-depth-2 my-1" alt="object" src="../assets/akali.png" style="height: 65px;">
+                        <img class="z-depth-2 my-1" alt="object" src="../assets/akali.png" style="height: 65px;">
+                        <img class="z-depth-2 my-1" alt="object" src="../assets/akali.png" style="height: 65px;">
+                        <img class="z-depth-2 my-1" alt="object" src="../assets/akali.png" style="height: 65px;">
+                        <img class="z-depth-2 my-1" alt="object" src="../assets/akali.png" style="height: 65px;">
+                        <img class="z-depth-2 my-1" alt="object" src="../assets/akali.png" style="height: 65px;">
                     </div>
                 </div>
               </router-link>
@@ -118,7 +118,7 @@
             <router-link style="text-decoration: none; color: inherit;" to="/match">
               <div class="row">
                   <div class="col-2">
-                  <img class="z-depth-2 my-1" alt="25x25" src="../assets/champion/Riven.png"
+                  <img class="z-depth-2 my-1" alt="champ" src="../assets/champion/Riven.png"
                   data-holder-rendered="true" style="display: block; max-width: 100%; height: auto">
                   </div>
                   <div class="col-1 my-4" style="color: black; font-size: 2vmax; text-align: center">
@@ -131,12 +131,12 @@
                       4/9/2
                   </div>
                   <div class="col-6 my-4" style="color: black; font-size: 2vmax; text-align: center">
-                      <img class="z-depth-2 my-1" alt="25x25" src="../assets/akali.png" style="height: 65px;">
-                      <img class="z-depth-2 my-1" alt="25x25" src="../assets/akali.png" style="height: 65px;">
-                      <img class="z-depth-2 my-1" alt="25x25" src="../assets/akali.png" style="height: 65px;">
-                      <img class="z-depth-2 my-1" alt="25x25" src="../assets/akali.png" style="height: 65px;">
-                      <img class="z-depth-2 my-1" alt="25x25" src="../assets/akali.png" style="height: 65px;">
-                      <img class="z-depth-2 my-1" alt="25x25" src="../assets/akali.png" style="height: 65px;">
+                      <img class="z-depth-2 my-1" alt="object" src="../assets/akali.png" style="height: 65px;">
+                      <img class="z-depth-2 my-1" alt="object" src="../assets/akali.png" style="height: 65px;">
+                      <img class="z-depth-2 my-1" alt="object" src="../assets/akali.png" style="height: 65px;">
+                      <img class="z-depth-2 my-1" alt="object" src="../assets/akali.png" style="height: 65px;">
+                      <img class="z-depth-2 my-1" alt="object" src="../assets/akali.png" style="height: 65px;">
+                      <img class="z-depth-2 my-1" alt="object" src="../assets/akali.png" style="height: 65px;">
                   </div>
               </div>
             </router-link>
@@ -145,7 +145,7 @@
             <router-link style="text-decoration: none; color: inherit;" to="/match">
               <div class="row">
                   <div class="col-2">
-                  <img class="z-depth-2 my-1" alt="25x25" src="../assets/champion/Garen.png"
+                  <img class="z-depth-2 my-1" alt="champ" src="../assets/champion/Garen.png"
                   data-holder-rendered="true" style="display: block; max-width: 100%; height: auto">
                   </div>
                   <div class="col-1 my-4" style="color: black; font-size: 2vmax; text-align: center">
@@ -158,12 +158,12 @@
                       2/1/3
                   </div>
                   <div class="col-6 my-4" style="color: black; font-size: 2vmax; text-align: center">
-                      <img class="z-depth-2 my-1" alt="25x25" src="../assets/akali.png" style="height: 65px;">
-                      <img class="z-depth-2 my-1" alt="25x25" src="../assets/akali.png" style="height: 65px;">
-                      <img class="z-depth-2 my-1" alt="25x25" src="../assets/akali.png" style="height: 65px;">
-                      <img class="z-depth-2 my-1" alt="25x25" src="../assets/akali.png" style="height: 65px;">
-                      <img class="z-depth-2 my-1" alt="25x25" src="../assets/akali.png" style="height: 65px;">
-                      <img class="z-depth-2 my-1" alt="25x25" src="../assets/akali.png" style="height: 65px;">
+                      <img class="z-depth-2 my-1" alt="object" src="../assets/akali.png" style="height: 65px;">
+                      <img class="z-depth-2 my-1" alt="object" src="../assets/akali.png" style="height: 65px;">
+                      <img class="z-depth-2 my-1" alt="object" src="../assets/akali.png" style="height: 65px;">
+                      <img class="z-depth-2 my-1" alt="object" src="../assets/akali.png" style="height: 65px;">
+                      <img class="z-depth-2 my-1" alt="object" src="../assets/akali.png" style="height: 65px;">
+                      <img class="z-depth-2 my-1" alt="object" src="../assets/akali.png" style="height: 65px;">
                   </div>
               </div>
             </router-link>
