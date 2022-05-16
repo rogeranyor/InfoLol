@@ -13,7 +13,7 @@
             <div class="col text-end">
               <!-- class="btn btn-dark w-50 mx-3 "  -->
               <!-- class="btn btn-dark my-3 "-->
-              <button type="btn btn-secondary" class="btn btn-dark w-50 mx-3 " style="background-color: black" data-toggle="collapse" aria-expanded="false">Forum</button>
+              <router-link to="/forum" exact><button type="btn btn-secondary" class="btn btn-dark w-50 mx-3 " style="background-color: black" data-toggle="collapse" aria-expanded="false">Forum</button></router-link>
               <button type="btn btn-secondary" class="btn btn-dark my-3 " style="background-color: black; width: 95px" data-toggle="collapse" aria-expanded="false">EloBoost</button>
             </div>
           </div>
@@ -30,12 +30,12 @@
               </div>
             </div>
             <div class="col-2 rounded-circle z-depth-2 rounded-circle float-end my-1 ml-2 mr-2" style="background-color: goldenrod; text-align: center">
-                    <div class ="container-fluid">
-                        <div class="row-4 align-items-center">
-                            <div class="col-12 my-4" style="color: black;font-style: italic ; font-size: 2vmax">Winrate</div>
+                    <div class ="container-fluid" style="text-align: center;">
+                        <div class="row-4 align-items-center" style="font-size: 2vmax;text-align: center;word-wrap: break-word;">
+                            <div class="col-12 my-4" style="color: black;font-style: italic; font-size: 50%;">Winrate</div>
                         </div>
                         <div class="row-4 align-items-center">
-                            <div class="col-12 my-2" style="color: black; font-size: 2vmax">xx,xx%</div>
+                            <div class="col-12 my-2" style="color: black; font-size: 2vmax;word-wrap:break-word">xx,xx%</div>
                         </div>
                     </div>
                 </div>
@@ -564,7 +564,7 @@
 <style>
 .circle h3 {
   vertical-align: middle;
-  display: table-cell;
+  word-wrap: break-word;
 }
 </style>
 

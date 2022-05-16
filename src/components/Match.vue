@@ -14,7 +14,7 @@
             <div class="col text-end">
               <!-- class="btn btn-dark w-50 mx-3 "  -->
               <!-- class="btn btn-dark my-3 "-->
-              <button type="btn btn-secondary" class="btn btn-dark w-50 mx-3 " style="background-color: black" data-toggle="collapse" aria-expanded="false">Forum</button>
+              <router-link to="/forum" exact><button type="btn btn-secondary" class="btn btn-dark w-50 mx-3 " style="background-color: black" data-toggle="collapse" aria-expanded="false">Forum</button></router-link>
               <button type="btn btn-secondary" class="btn btn-dark my-3 " style="background-color: black; width: 95px" data-toggle="collapse" aria-expanded="false">EloBoost</button>
             </div>
           </div>

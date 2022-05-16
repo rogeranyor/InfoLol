@@ -1,5 +1,5 @@
 <template>
-  <div class="container" style="background-color: dodgerblue; min-width: 100vh; min-height: 100vh;">
+  <div class="container" style="background-color: dodgerblue; width: 100%; min-height: 100vh; max-width: initial;">
     <div class="row">
       <div class="col" style="margin: 2%" align="center">
         <h1
