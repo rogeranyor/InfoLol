@@ -4,7 +4,7 @@
       <div class="row justify-content-md-center mt-4 " style="height: 100vh">
         <div class="col-sm-4 text-center" style="background-color:dodgerblue">
           <div class="mx-auto order-0">
-            <a class="navbar-brand mx-auto" href="#" style="font-size: 60px;color: gold;">Account Creation</a>
+            <a class="navbar-brand mx-auto" href="#" style="font-size: 3vmax;color: gold;">Account Creation</a>
           </div>
           <form>
             <div class="form-group mb-5 mt-4">
@@ -42,7 +42,7 @@
 <script>
 export default {
   created () {
-    document.body.style.backgroundColor = '#8E8E8E'
+    document.body.style.backgroundColor = '#000000'
   }
 }
 </script>
