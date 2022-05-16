@@ -1,25 +1,5 @@
 <template>
 <div>
-  <nav class="navbar navbar-expand-lg navbar-light py-3" style="background-color:dodgerblue;">
-      <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
-          <ul class="navbar-nav mr-auto">
-              <li class="nav-item">
-                  <a class="nav-link" href="//codeply.com" style="color: gold; padding-left:30px;">Who are we?</a>
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link" href="#" style="color: gold;">Contact Us</a>
-              </li>
-          </ul>
-      </div>
-      <div class="mx-auto order-0">
-          <a class="navbar-brand mx-auto" href="#" style="font-size: 80px;color: gold;">InfoLoL</a>
-      </div>
-      <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
-          <ul class="navbar-nav ml-auto">
-          </ul>
-      </div>
-  </nav>
-
   <div class="container-fluid">
     <div class="row">
         <!--Main Content-->
@@ -75,81 +55,88 @@
             </div>
             <div class ="row-8 ml-2 mr-2" id="MatchHistory" style="background-color: dimgray; min-height: 100%">
                 <div class ="container-fluid my-2" style="background-color:firebrick">
-                    <div class="row">
-                        <div class="col-2">
-                        <img class="z-depth-2 my-1" alt="25x25" src="../assets/champion/Graves.png"
-                        data-holder-rendered="true" style="display: block; max-width: 100%; height: auto">
-                        </div>
-                        <div class="col-1 my-4" style="color: black; font-size: 2vmax; text-align: center">
-                            Lost
-                        </div>
-                        <div class="col-1 my-4" style="color: black; font-size: 2vmax; text-align: center">
-                            154cs
-                        </div>
-                        <div class="col-2 my-4" style="color: black; font-size: 2vmax; text-align: center">
-                            0/10/0
-                        </div>
-                        <div class="col-6 my-4" style="color: black; font-size: 2vmax; text-align: center">
-                            <img class="z-depth-2 my-1" alt="25x25" src="../assets/akali.png" style="height: 65px;">
-                            <img class="z-depth-2 my-1" alt="25x25" src="../assets/akali.png" style="height: 65px;">
-                            <img class="z-depth-2 my-1" alt="25x25" src="../assets/akali.png" style="height: 65px;">
-                            <img class="z-depth-2 my-1" alt="25x25" src="../assets/akali.png" style="height: 65px;">
-                            <img class="z-depth-2 my-1" alt="25x25" src="../assets/akali.png" style="height: 65px;">
-                            <img class="z-depth-2 my-1" alt="25x25" src="../assets/akali.png" style="height: 65px;">
-                        </div>
-                    </div>
+                    <router-link style="text-decoration: none; color: inherit;" to="/match">
+                      <div class="row">
+                          <div class="col-2">
+                          <img class="z-depth-2 my-1" alt="25x25" src="../assets/champion/Graves.png"
+                          data-holder-rendered="true" style="display: block; max-width: 100%; height: auto">
+                          </div>
+                          <div class="col-1 my-4" style="color: black; font-size: 2vmax; text-align: center">
+                              Lost
+                          </div>
+                          <div class="col-1 my-4" style="color: black; font-size: 2vmax; text-align: center">
+                              154cs
+                          </div>
+                          <div class="col-2 my-4" style="color: black; font-size: 2vmax; text-align: center">
+                              0/10/0
+                          </div>
+                          <div class="col-6 my-4" style="color: black; font-size: 2vmax; text-align: center">
+                              <img class="z-depth-2 my-1" alt="25x25" src="../assets/akali.png" style="height: 65px;">
+                              <img class="z-depth-2 my-1" alt="25x25" src="../assets/akali.png" style="height: 65px;">
+                              <img class="z-depth-2 my-1" alt="25x25" src="../assets/akali.png" style="height: 65px;">
+                              <img class="z-depth-2 my-1" alt="25x25" src="../assets/akali.png" style="height: 65px;">
+                              <img class="z-depth-2 my-1" alt="25x25" src="../assets/akali.png" style="height: 65px;">
+                              <img class="z-depth-2 my-1" alt="25x25" src="../assets/akali.png" style="height: 65px;">
+                          </div>
+                      </div>
+                    </router-link>
                 </div>
                 <div class ="container-fluid my-2" style="background-color:firebrick">
-                    <div class="row">
-                        <div class="col-2">
-                        <img class="z-depth-2 my-1" alt="25x25" src="../assets/champion/Rengar.png"
-                        data-holder-rendered="true" style="display: block; max-width: 100%; height: auto">
-                        </div>
-                        <div class="col-1 my-4" style="color: black; font-size: 2vmax; text-align: center">
-                            Lost
-                        </div>
-                        <div class="col-1 my-4" style="color: black; font-size: 2vmax; text-align: center">
-                            121cs
-                        </div>
-                        <div class="col-2 my-4" style="color: black; font-size: 2vmax; text-align: center">
-                            2/4/1
-                        </div>
-                        <div class="col-6 my-4" style="color: black; font-size: 2vmax; text-align: center">
-                            <img class="z-depth-2 my-1" alt="25x25" src="../assets/akali.png" style="height: 65px;">
-                            <img class="z-depth-2 my-1" alt="25x25" src="../assets/akali.png" style="height: 65px;">
-                            <img class="z-depth-2 my-1" alt="25x25" src="../assets/akali.png" style="height: 65px;">
-                            <img class="z-depth-2 my-1" alt="25x25" src="../assets/akali.png" style="height: 65px;">
-                            <img class="z-depth-2 my-1" alt="25x25" src="../assets/akali.png" style="height: 65px;">
-                            <img class="z-depth-2 my-1" alt="25x25" src="../assets/akali.png" style="height: 65px;">
-                        </div>
-                    </div>
+                    <router-link style="text-decoration: none; color: inherit;" to="/match">
+                      <div class="row">
+                          <div class="col-2">
+                          <img class="z-depth-2 my-1" alt="25x25" src="../assets/champion/Rengar.png"
+                          data-holder-rendered="true" style="display: block; max-width: 100%; height: auto">
+                          </div>
+                          <div class="col-1 my-4" style="color: black; font-size: 2vmax; text-align: center">
+                              Lost
+                          </div>
+                          <div class="col-1 my-4" style="color: black; font-size: 2vmax; text-align: center">
+                              121cs
+                          </div>
+                          <div class="col-2 my-4" style="color: black; font-size: 2vmax; text-align: center">
+                              2/4/1
+                          </div>
+                          <div class="col-6 my-4" style="color: black; font-size: 2vmax; text-align: center">
+                              <img class="z-depth-2 my-1" alt="25x25" src="../assets/akali.png" style="height: 65px;">
+                              <img class="z-depth-2 my-1" alt="25x25" src="../assets/akali.png" style="height: 65px;">
+                              <img class="z-depth-2 my-1" alt="25x25" src="../assets/akali.png" style="height: 65px;">
+                              <img class="z-depth-2 my-1" alt="25x25" src="../assets/akali.png" style="height: 65px;">
+                              <img class="z-depth-2 my-1" alt="25x25" src="../assets/akali.png" style="height: 65px;">
+                              <img class="z-depth-2 my-1" alt="25x25" src="../assets/akali.png" style="height: 65px;">
+                          </div>
+                      </div>
+                    </router-link>
                 </div>
                 <div class ="container-fluid my-2" style="background-color:firebrick">
-                    <div class="row">
-                        <div class="col-2">
-                        <img class="z-depth-2 my-1" alt="25x25" src="../assets/champion/Aatrox.png"
-                        data-holder-rendered="true" style="display: block; max-width: 100%; height: auto">
-                        </div>
-                        <div class="col-1 my-4" style="color: black; font-size: 2vmax; text-align: center">
-                            Lost
-                        </div>
-                        <div class="col-1 my-4" style="color: black; font-size: 2vmax; text-align: center">
-                            105cs
-                        </div>
-                        <div class="col-2 my-4" style="color: black; font-size: 2vmax; text-align: center">
-                            1/10/5
-                        </div>
-                        <div class="col-6 my-4" style="color: black; font-size: 2vmax; text-align: center">
-                            <img class="z-depth-2 my-1" alt="25x25" src="../assets/akali.png" style="height: 65px;">
-                            <img class="z-depth-2 my-1" alt="25x25" src="../assets/akali.png" style="height: 65px;">
-                            <img class="z-depth-2 my-1" alt="25x25" src="../assets/akali.png" style="height: 65px;">
-                            <img class="z-depth-2 my-1" alt="25x25" src="../assets/akali.png" style="height: 65px;">
-                            <img class="z-depth-2 my-1" alt="25x25" src="../assets/akali.png" style="height: 65px;">
-                            <img class="z-depth-2 my-1" alt="25x25" src="../assets/akali.png" style="height: 65px;">
-                        </div>
-                    </div>
+                    <router-link style="text-decoration: none; color: inherit;" to="/match">
+                      <div class="row">
+                          <div class="col-2">
+                          <img class="z-depth-2 my-1" alt="25x25" src="../assets/champion/Aatrox.png"
+                          data-holder-rendered="true" style="display: block; max-width: 100%; height: auto">
+                          </div>
+                          <div class="col-1 my-4" style="color: black; font-size: 2vmax; text-align: center">
+                              Lost
+                          </div>
+                          <div class="col-1 my-4" style="color: black; font-size: 2vmax; text-align: center">
+                              105cs
+                          </div>
+                          <div class="col-2 my-4" style="color: black; font-size: 2vmax; text-align: center">
+                              1/10/5
+                          </div>
+                          <div class="col-6 my-4" style="color: black; font-size: 2vmax; text-align: center">
+                              <img class="z-depth-2 my-1" alt="25x25" src="../assets/akali.png" style="height: 65px;">
+                              <img class="z-depth-2 my-1" alt="25x25" src="../assets/akali.png" style="height: 65px;">
+                              <img class="z-depth-2 my-1" alt="25x25" src="../assets/akali.png" style="height: 65px;">
+                              <img class="z-depth-2 my-1" alt="25x25" src="../assets/akali.png" style="height: 65px;">
+                              <img class="z-depth-2 my-1" alt="25x25" src="../assets/akali.png" style="height: 65px;">
+                              <img class="z-depth-2 my-1" alt="25x25" src="../assets/akali.png" style="height: 65px;">
+                          </div>
+                      </div>
+                    </router-link>
                 </div>
                 <div class ="container-fluid my-2" style="background-color:firebrick">
+                  <router-link style="text-decoration: none; color: inherit;" to="/match">
                     <div class="row">
                         <div class="col-2">
                         <img class="z-depth-2 my-1" alt="25x25" src="../assets/champion/Riven.png"
@@ -173,8 +160,10 @@
                             <img class="z-depth-2 my-1" alt="25x25" src="../assets/akali.png" style="height: 65px;">
                         </div>
                     </div>
+                  </router-link>
                 </div>
                 <div class ="container-fluid my-2" style="background-color:darkolivegreen">
+                  <router-link style="text-decoration: none; color: inherit;" to="/match">
                     <div class="row">
                         <div class="col-2">
                         <img class="z-depth-2 my-1" alt="25x25" src="../assets/champion/Garen.png"
@@ -198,6 +187,7 @@
                             <img class="z-depth-2 my-1" alt="25x25" src="../assets/akali.png" style="height: 65px;">
                         </div>
                     </div>
+                  </router-link>
                 </div>
             </div>
         </div>
@@ -207,8 +197,8 @@
         <div class ="container" style="background-color:goldenrod">
           <div class="row" style="height: 100px">
             <div class="col-7">
-              <button type="btn btn-secondary" class="d-flex align-text-top btn btn-dark my-2  w-100" style="background-color: black; text-align: center" >Login</button>
-              <button type="btn btn-secondary" class="d-flex align-text-bottom btn btn-dark w-100 " style="background-color: black">Create Account</button>
+              <router-link to="/Login" tag="button" type="btn btn-secondary" class="d-flex align-text-top btn btn-dark my-2  w-100" style="background-color: black; text-align: center" >Login</router-link>
+              <router-link to="/Register" tag="button" type="btn btn-secondary" class="d-flex align-text-bottom btn btn-dark w-100 " style="background-color: black">Create Account</router-link>
             </div>
 
             <div class="col">
@@ -217,7 +207,6 @@
             </div>
           </div>
         </div>
-
         <div class ="container-fluid mt-3" style="background-color:dodgerblue">
           <div class="row-1">
             <div class="col-12" style="max-width: 100%">
@@ -289,7 +278,6 @@
 </template>
 
 <script>
-import lodash from 'lodash'
 import json from '../assets/champion.json'
 export default {
   data () {
