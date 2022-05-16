@@ -1,24 +1,5 @@
 <template>
   <div>
-    <nav class="navbar navbar-expand-lg navbar-light py-3" style="background-color:dodgerblue;">
-      <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="//codeply.com" style="color: gold; padding-left:30px;">Who are we?</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#" style="color: gold;">Contact Us</a>
-          </li>
-        </ul>
-      </div>
-      <div class="mx-auto order-0">
-        <a class="navbar-brand mx-auto" href="#" style="font-size: 80px;color: gold;">InfoLoL</a>
-      </div>
-      <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
-        <ul class="navbar-nav ml-auto">
-        </ul>
-      </div>
-    </nav>
     <div class="container-fluid">
       <div class="row justify-content-md-center mt-4 " style="height: 100vh">
         <div class="col-sm-4 text-center" style="background-color:dodgerblue">
@@ -38,8 +19,9 @@
             <button type="submit" class="btn btn-primary mb-2"
               style="background-color:midnightblue ; color:gold; font-size: large;">Log In</button>
             <div class="mx-auto order-0">
+              <router-link to="/Register">
               <a class="navbar-brand mx-auto" href="#" style="font-size:medium;color: gold; font-style: ;"><u>Click here
-                  to Create an Account</u></a>
+                  to Create an Account</u></a></router-link>
             </div>
           </form>
         </div>

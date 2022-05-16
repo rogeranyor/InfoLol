@@ -15,7 +15,7 @@
               <!-- class="btn btn-dark w-50 mx-3 "  -->
               <!-- class="btn btn-dark my-3 "-->
               <button type="btn btn-secondary" class="btn btn-dark mx-3 center-block w-50" style="background-color: black" data-toggle="collapse" aria-expanded="false">Forum</button>
-              <button type="btn btn-secondary" class="btn btn-dark my-3 center-block w-25" style="background-color: black" data-toggle="collapse" aria-expanded="false">Duo</button>
+              <button type="btn btn-secondary" class="btn btn-dark my-3 center-block w-25" style="background-color: black" data-toggle="collapse" aria-expanded="false">EloBoost</button>
             </div>
           </div>
         </div>
