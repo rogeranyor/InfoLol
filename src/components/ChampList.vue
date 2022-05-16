@@ -3,7 +3,7 @@
   <div class ="container-fluid mt-2 " style="background-color:#1A659E; height: 80px">
     <div class="row">
       <div class="col my-4">
-        <p class=" float-start align-self-center" style="color: #FF6B35; font-size: 2vmax">List of Champions</p>
+        <p class=" float-start align-self-center" style="color: #ffe7d4; font-size: 2vmax">List of Champions</p>
       </div>
       <div class="col">
         <div class="dropdown-dark my-3 text-right">
@@ -22,7 +22,7 @@
       <div class="container-fluid">
         <div class="row" v-for="champs in chunkedChamps" :key="champs.name" align="center">
           <div class="col" v-for="champ in champs" :key="champ.name">
-            <router-link to="/champ" exact><img :src="require('../assets/champion/' + champ.image)" alt='champ.name' height="100px" width="100px"/></router-link>
+            <router-link to="/champ" exact><img :src="require('../assets/champion/' + champ.image)" alt='Name of the champion' height="100px" width="100px"/></router-link>
             <h6>{{champ.name}}</h6>
           </div>
         </div>
@@ -38,7 +38,7 @@
     --secondarycolor: #004E89;
     --backgroundcolor: #EFEFD0;
     --forthcolor: #7A7265;
-    --fifthcolor: #FF6B35;
+    --fifthcolor: #ffe7d4;
 }
 </style>
 <script>

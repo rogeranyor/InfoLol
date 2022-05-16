@@ -7,7 +7,7 @@
               data-holder-rendered="true" style="border: 4px solid #000000; display: block; max-width: 100%; height: auto">
       </div>
       <div class="col my-5">
-        <p class=" float-start" style="color: #FF6B35; font-size: 3vmax">Summoner's Name</p>
+        <p class=" float-start" style="color: #ffe7d4; font-size: 3vmax">Summoner's Name</p>
       </div>
     </div>
   </div>
@@ -24,10 +24,10 @@
           <div class="col-2 rounded-circle z-depth-2 rounded-circle float-end my-1" style="background-color: #004E89; text-align: center">
               <div class ="container-fluid">
                   <div class="row-4 align-items-center">
-                      <div class="col-12 my-4" style="color: black;font-style: italic ; font-size: 2vmax">Winrate</div>
+                      <div class="col-12 my-4" style="color: #ffe7d4;font-style: italic ; font-size: 2vmax">Winrate</div>
                   </div>
                   <div class="row-4 align-items-center">
-                      <div class="col-12 my-2" style="color: black; font-size: 2vmax">xx,xx%</div>
+                      <div class="col-12 my-2" style="color: #ffe7d4; font-size: 2vmax">xx,xx%</div>
                   </div>
               </div>
           </div>
@@ -179,7 +179,7 @@
     --secondarycolor: #004E89;
     --backgroundcolor: #EFEFD0;
     --forthcolor: #7A7265;
-    --fifthcolor: #FF6B35;
+    --fifthcolor: #ffe7d4;
 }
 </style>
 

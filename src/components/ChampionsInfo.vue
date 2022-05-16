@@ -3,11 +3,11 @@
     <div class="container-fluid my-2">
       <div class="row" style="background-color: #1A659E;">
         <div class="col-2 my-2">
-          <img class="rounded-circle z-depth-2  rounded-circle float-end my-1" alt="25x25" src="../assets/champion/Akali.png"
+          <img alt="Akali champion icon" class="rounded-circle z-depth-2  rounded-circle float-end my-1" src="../assets/champion/Akali.png"
                 data-holder-rendered="true" style="border: 4px solid #000000; display: block; max-width: 100%; height: auto">
         </div>
         <div class="col" style="align-items: center;">
-          <div class="container-fluid my-4" style="text-align: center;font-size: 4vmax;color: #FF6B35; font-style: italic;">
+          <div class="container-fluid my-4" style="text-align: center;font-size: 4vmax;color: #ffe7d4; font-style: italic;">
             Akali
           </div>
         </div>
@@ -15,10 +15,10 @@
               style="background-color: #004E89; text-align: center;font-size: 75%;">
                 <div class ="container-fluid" style="text-align: center;">
                     <div class="row-4 align-items-center" style="text-align: center;">
-                        <div class="col-12 my-4" style="color: white;font-style: italic;font-size: 2vmin; overflow: hidden;">Winrate</div>
+                        <div class="col-12 my-4" style="color: #ffe7d4;font-style: italic;font-size: 2vmin; overflow: hidden;">Winrate</div>
                     </div>
                     <div class="row-4 align-items-center">
-                        <div class="col-12 my-2" style="color: white; font-size: 2vmin;overflow: hidden;">xx,xx%</div>
+                        <div class="col-12 my-2" style="color: #ffe7d4; font-size: 2vmin;overflow: hidden;">xx,xx%</div>
                     </div>
                 </div>
             </div>
@@ -36,7 +36,7 @@
                 <td colspan="3" class="text-center">
                   <div class="img-align-block">
                     <div>
-                      <img
+                      <img alt="Item icon"
                         src="/static/img/akali.6ea05c5.png"
                         height="48"
                         width="48"
@@ -48,7 +48,7 @@
                 <td colspan="3" class="text-center">
                   <div class="img-align-block">
                     <div>
-                      <img
+                      <img alt="Item icon"
                         src="/static/img/akali.6ea05c5.png"
                         height="48"
                         width="48"
@@ -60,7 +60,7 @@
                 <td colspan="3" class="text-center">
                   <div class="img-align-block">
                     <div>
-                      <img
+                      <img alt="Item icon"
                         src="/static/img/akali.6ea05c5.png"
                         height="48"
                         width="48"
@@ -72,7 +72,7 @@
                 <td colspan="3" class="text-center">
                   <div class="img-align-block">
                     <div>
-                      <img
+                      <img alt="Item icon"
                         src="/static/img/akali.6ea05c5.png"
                         height="48"
                         width="48"
@@ -86,7 +86,7 @@
                 <td colspan="3" class="text-center">
                   <div class="img-align-block">
                     <div>
-                      <img
+                      <img alt="Item icon"
                         src="/static/img/akali.6ea05c5.png"
                         height="36"
                         width="36"
@@ -98,7 +98,7 @@
                 <td colspan="3" class="text-center">
                   <div class="img-align-block">
                     <div>
-                      <img
+                      <img alt="Item icon"
                         src="/static/img/akali.6ea05c5.png"
                         height="36"
                         width="36"
@@ -110,7 +110,7 @@
                 <td colspan="3" class="text-center">
                   <div class="img-align-block">
                     <div>
-                      <img
+                      <img alt="Item icon"
                         src="/static/img/akali.6ea05c5.png"
                         height="36"
                         width="36"
@@ -124,7 +124,7 @@
                 <td colspan="3" class="text-center">
                   <div class="img-align-block">
                     <div>
-                      <img
+                      <img alt="Item icon"
                         src="/static/img/akali.6ea05c5.png"
                         height="36"
                         width="36"
@@ -136,7 +136,7 @@
                 <td colspan="3" class="text-center">
                   <div class="img-align-block">
                     <div>
-                      <img
+                      <img alt="Item icon"
                         src="/static/img/akali.6ea05c5.png"
                         height="36"
                         width="36"
@@ -148,7 +148,7 @@
                 <td colspan="3" class="text-center">
                   <div class="img-align-block">
                     <div>
-                      <img
+                      <img alt="Item icon"
                         src="/static/img/akali.6ea05c5.png"
                         height="36"
                         width="36"
@@ -162,7 +162,7 @@
                 <td colspan="3" class="bigBorderBottom text-center">
                   <div class="img-align-block">
                     <div>
-                      <img
+                      <img alt="Item icon"
                         src="/static/img/akali.6ea05c5.png"
                         height="36"
                         width="36"
@@ -174,7 +174,7 @@
                 <td colspan="3" class="bigBorderBottom text-center">
                   <div class="img-align-block">
                     <div>
-                      <img
+                      <img alt="Item icon"
                         src="/static/img/akali.6ea05c5.png"
                         height="36"
                         width="36"
@@ -186,7 +186,7 @@
                 <td colspan="3" class="bigBorderBottom text-center">
                   <div class="img-align-block">
                     <div>
-                      <img
+                      <img alt="Item icon"
                         src="/static/img/akali.6ea05c5.png"
                         height="36"
                         width="36"
@@ -200,7 +200,7 @@
                 <td colspan="3">
                   <div class="img-align-block">
                     <div>
-                      <img
+                      <img alt="Item icon"
                         src="/static/img/akali.6ea05c5.png"
                         height="24"
                         width="24"
@@ -212,7 +212,7 @@
                 <td colspan="3">
                   <div class="img-align-block">
                     <div>
-                      <img
+                      <img alt="Item icon"
                         src="/static/img/akali.6ea05c5.png"
                         height="24"
                         width="24"
@@ -224,7 +224,7 @@
                 <td colspan="3">
                   <div class="img-align-block">
                     <div>
-                      <img
+                      <img alt="Item icon"
                         src="/static/img/akali.6ea05c5.png"
                         height="24"
                         width="24"
@@ -238,7 +238,7 @@
                 <td colspan="3">
                   <div class="img-align-block">
                     <div>
-                      <img
+                      <img alt="Item icon"
                         src="/static/img/akali.6ea05c5.png"
                         height="24"
                         width="24"
@@ -250,7 +250,7 @@
                 <td colspan="3">
                   <div class="img-align-block">
                     <div>
-                      <img
+                      <img alt="Item icon"
                         src="/static/img/akali.6ea05c5.png"
                         height="24"
                         width="24"
@@ -262,7 +262,7 @@
                 <td colspan="3">
                   <div class="img-align-block">
                     <div>
-                      <img
+                      <img alt="Item icon"
                         src="/static/img/akali.6ea05c5.png"
                         height="24"
                         width="24"
@@ -276,7 +276,7 @@
                 <td colspan="3" class="bigBorderBottom">
                   <div class="img-align-block">
                     <div>
-                      <img
+                      <img alt="Item icon"
                         src="/static/img/akali.6ea05c5.png"
                         height="24"
                         width="24"
@@ -288,7 +288,7 @@
                 <td colspan="3" class="bigBorderBottom">
                   <div class="img-align-block">
                     <div>
-                      <img
+                      <img alt="Item icon"
                         src="/static/img/akali.6ea05c5.png"
                         height="24"
                         width="24"
@@ -300,7 +300,7 @@
                 <td colspan="3" class="bigBorderBottom">
                   <div class="img-align-block">
                     <div>
-                      <img
+                      <img alt="Item icon"
                         src="/static/img/akali.6ea05c5.png"
                         height="24"
                         width="24"
@@ -314,7 +314,7 @@
                 <td colspan="3" class="small-vert-padding">
                   <div class="img-align-block">
                     <div>
-                      <img
+                      <img alt="Item icon"
                         src="/static/img/akali.6ea05c5.png"
                         height="24"
                         width="24"
@@ -326,7 +326,7 @@
                 <td colspan="3" class="small-vert-padding">
                   <div class="img-align-block">
                     <div>
-                      <img
+                      <img alt="Item icon"
                         src="/static/img/akali.6ea05c5.png"
                         height="24"
                         width="24"
@@ -338,7 +338,7 @@
                 <td colspan="3" class="small-vert-padding">
                   <div class="img-align-block">
                     <div>
-                      <img
+                      <img alt="Item icon"
                         src="/static/img/akali.6ea05c5.png"
                         height="24"
                         width="24"
@@ -352,7 +352,7 @@
                 <td colspan="3" class="small-vert-padding">
                   <div class="img-align-block">
                     <div>
-                      <img
+                      <img alt="Item icon"
                         src="/static/img/akali.6ea05c5.png"
                         height="24"
                         width="24"
@@ -364,7 +364,7 @@
                 <td colspan="3" class="small-vert-padding">
                   <div class="img-align-block">
                     <div>
-                      <img
+                      <img alt="Item icon"
                         src="/static/img/akali.6ea05c5.png"
                         height="24"
                         width="24"
@@ -376,7 +376,7 @@
                 <td colspan="3" class="small-vert-padding">
                   <div class="img-align-block">
                     <div>
-                      <img
+                      <img alt="Item icon"
                         src="/static/img/akali.6ea05c5.png"
                         height="24"
                         width="24"
@@ -390,7 +390,7 @@
                 <td colspan="3" class="small-vert-padding">
                   <div class="img-align-block">
                     <div>
-                      <img
+                      <img alt="Item icon"
                         src="/static/img/akali.6ea05c5.png"
                         height="24"
                         width="24"
@@ -402,7 +402,7 @@
                 <td colspan="3" class="small-vert-padding">
                   <div class="img-align-block">
                     <div>
-                      <img
+                      <img alt="Item icon"
                         src="/static/img/akali.6ea05c5.png"
                         height="24"
                         width="24"
@@ -414,7 +414,7 @@
                 <td colspan="3" class="small-vert-padding">
                   <div class="img-align-block">
                     <div>
-                      <img
+                      <img alt="Item icon"
                         src="/static/img/akali.6ea05c5.png"
                         height="24"
                         width="24"
@@ -434,49 +434,43 @@
             <div class="col" style="text-align: center">Build</div>
           </div>
           <div class="row" style="background-color:#7A7265">
-            <img
+            <img alt="Item icon"
               data-original="/images/item/sorcerers-shoes-64x.png"
-              alt=""
               width="64"
               height="64"
               src="/static/img/akali.6ea05c5.png"
               style="margin: 2%"
             />
-            <img
+            <img alt="Item icon"
               data-original="/images/item/sorcerers-shoes-64x.png"
-              alt=""
               width="64"
               height="64"
               src="/static/img/akali.6ea05c5.png"
               style="margin: 2%"
             />
-            <img
+            <img alt="Item icon"
               data-original="/images/item/sorcerers-shoes-64x.png"
-              alt=""
               width="64"
               height="64"
               src="/static/img/akali.6ea05c5.png"
               style="margin: 2%"
             />
-            <img
+            <img alt="Item icon"
               data-original="/images/item/sorcerers-shoes-64x.png"
-              alt=""
               width="64"
               height="64"
               src="/static/img/akali.6ea05c5.png"
               style="margin: 2%"
             />
-            <img
+            <img alt="Item icon"
               data-original="/images/item/sorcerers-shoes-64x.png"
-              alt=""
               width="64"
               height="64"
               src="/static/img/akali.6ea05c5.png"
               style="margin: 2%"
             />
-            <img
+            <img alt="Item icon"
               data-original="/images/item/sorcerers-shoes-64x.png"
-              alt=""
               width="64"
               height="64"
               src="/static/img/akali.6ea05c5.png"
@@ -494,7 +488,7 @@
                 <tr>
                 <td>
                   <div class="champion-skill-with-label" style="margin: 2%">
-                    <img
+                    <img alt="Item icon"
                       src="https://static.u.gg/assets/lol/riot_static/12.9.1/img/spell/AkaliQ.webp"
                     />
                     <div class="skill-label bottom-center">Q</div>
@@ -502,7 +496,7 @@
                 </td>
                 <td>
                   <div class="champion-skill-with-label" style="margin: 2%">
-                    <img
+                    <img alt="Item icon"
                       src="https://static.u.gg/assets/lol/riot_static/12.9.1/img/spell/AkaliE.webp"
                     />
                     <div class="skill-label bottom-center">E</div>
@@ -510,7 +504,7 @@
                 </td>
                 <td>
                   <div class="champion-skill-with-label" style="margin: 2%">
-                    <img
+                    <img alt="Item icon"
                       src="https://static.u.gg/assets/lol/riot_static/12.9.1/img/spell/AkaliW.webp"
                     />
                     <div class="skill-label bottom-center">W</div>
@@ -532,7 +526,7 @@
     --secondarycolor: #004E89;
     --backgroundcolor: #EFEFD0;
     --forthcolor: #7A7265;
-    --fifthcolor: #FF6B35;
+    --fifthcolor: #ffe7d4;
 }
 .circle h3 {
   vertical-align: middle;

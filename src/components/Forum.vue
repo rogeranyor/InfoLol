@@ -2,7 +2,7 @@
   <div class="container" style="background-color: #7A7265; width: 100%; min-height: 100vh; max-width: initial;">
     <div class="row" style="background-color: #1A659E">
       <div class="col-10" style="margin: 2%" align="center">
-        <a style="font-size: 2vmax; color: #FF6B35">Forum</a>
+        <a style="font-size: 2vmax; color: #ffe7d4">Forum</a>
       </div>
       <div class="col-1">
         <div class="dropdown my-3 float-end">
@@ -33,9 +33,9 @@
       </thead>
       <thead>
         <tr v-for="user in users" :key="user.id" style="text-align:center;font-weight: bold;">
-          <td><router-link to="/Profile" exact><img style="border-radius: 50%;" :src="require('../assets/users/' + user.id+'.png')"  height="3%" width="40px" /></router-link></td>
-          <td><img :src="require('../assets/emblems/Emblem_' + user.rank+'.png')" height="3%" width="40px"/></td>
-          <td><span>{{user.position}} </span><img :src="require('../assets/positions/' + user.position+'.png')" height="3%" width="40px"/></td>
+          <td><router-link to="/Profile" exact><img alt="User icon" style="border-radius: 50%;" :src="require('../assets/users/' + user.id+'.png')"  height="3%" width="40px" /></router-link></td>
+          <td><img alt="Rank emblem" :src="require('../assets/emblems/Emblem_' + user.rank+'.png')" height="3%" width="40px"/></td>
+          <td><span>{{user.position}} </span><img alt="Position icon" :src="require('../assets/positions/' + user.position+'.png')" height="3%" width="40px"/></td>
           <td>{{ user.winrate }} %</td>
         </tr>
       </thead>
@@ -51,7 +51,7 @@ table thead tr:nth-child(even){
     --secondarycolor: #004E89;
     --backgroundcolor: #EFEFD0;
     --forthcolor: #7A7265;
-    --fifthcolor: #FF6B35;
+    --fifthcolor: #ffe7d4;
 }
 </style>
 <script>

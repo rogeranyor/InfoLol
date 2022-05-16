@@ -3,7 +3,7 @@
   <div class ="container-fluid mt-2 " style="background-color:#1A659E; height: 80px">
     <div class="row">
       <div class="col my-4">
-        <p class=" float-start align-self-center" style="color: #FF6B35; font-size: 2vmax">Match Info</p>
+        <p class=" float-start align-self-center" style="color: #ffe7d4; font-size: 2vmax">Match Info</p>
       </div>
     </div>
   </div>
@@ -114,7 +114,7 @@
     --secondarycolor: #004E89;
     --backgroundcolor: #EFEFD0;
     --forthcolor: #7A7265;
-    --fifthcolor: #FF6B35;
+    --fifthcolor: #ffe7d4;
 }
 </style>
 
