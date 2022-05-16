@@ -49,7 +49,7 @@
               <router-link to="/Register" tag="button" type="btn btn-secondary" class="d-flex align-text-bottom btn btn-dark w-100 " style="background-color: black">Create Account</router-link>
             </div>
             <div class="col">
-              <router-link to="/Profile" exact><img class="rounded-circle z-depth-2  rounded-circle float-right my-1" alt="25x25" src="./assets/akali.png"
+              <router-link to="/Profile" exact><img class="rounded-circle z-depth-2  rounded-circle float-right my-1" alt="profile_picture" src="./assets/akali.png"
                    data-holder-rendered="true" style="border: 4px solid #000000; display: block; max-width: 55%; height: auto"></router-link>
             </div>
           </div>
@@ -65,7 +65,7 @@
             </div>
             <br>
             <div class="card">
-              <img src="./assets/wp1.jpg" class="card-img-top" alt="...">
+              <img src="./assets/wp1.jpg" class="card-img-top" alt="info_image">
               <div class="card-body ">
                 Información sobre el nuevo parche 1.5
               </div>
@@ -78,7 +78,7 @@
             </div>
             <br>
             <div class="card">
-              <img src="./assets/wp2.jpg" class="card-img-top" alt="...">
+              <img src="./assets/wp2.jpg" class="card-img-top" alt="info_image">
               <div class="card-body ">
                 Información sobre el nuevo parche 1.4
               </div>
